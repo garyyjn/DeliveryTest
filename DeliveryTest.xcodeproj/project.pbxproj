@@ -13,6 +13,26 @@
 		4C42A3222BE9BCAE0012A33E /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3212BE9BCAE0012A33E /* ImmersiveView.swift */; };
 		4C42A3242BE9BCB00012A33E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C42A3232BE9BCB00012A33E /* Assets.xcassets */; };
 		4C42A3272BE9BCB00012A33E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C42A3262BE9BCB00012A33E /* Preview Assets.xcassets */; };
+		4C42A32F2BE9BCC90012A33E /* SampleEntityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A32E2BE9BCC90012A33E /* SampleEntityViewModel.swift */; };
+		4C42A3442BE9BD2D0012A33E /* SendableCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3302BE9BD2D0012A33E /* SendableCircle.swift */; };
+		4C42A3452BE9BD2D0012A33E /* SendablePlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3312BE9BD2D0012A33E /* SendablePlayer.swift */; };
+		4C42A3462BE9BD2D0012A33E /* Data+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3332BE9BD2D0012A33E /* Data+ext.swift */; };
+		4C42A3472BE9BD2D0012A33E /* MCSessionState+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3342BE9BD2D0012A33E /* MCSessionState+ext.swift */; };
+		4C42A3482BE9BD2D0012A33E /* PeersC+Advertiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3362BE9BD2D0012A33E /* PeersC+Advertiser.swift */; };
+		4C42A3492BE9BD2D0012A33E /* PeersC+Browser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3372BE9BD2D0012A33E /* PeersC+Browser.swift */; };
+		4C42A34A2BE9BD2D0012A33E /* PeersC+Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3382BE9BD2D0012A33E /* PeersC+Session.swift */; };
+		4C42A34B2BE9BD2D0012A33E /* PeersC+Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3392BE9BD2D0012A33E /* PeersC+Stream.swift */; };
+		4C42A34C2BE9BD2D0012A33E /* PeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A33A2BE9BD2D0012A33E /* PeerService.swift */; };
+		4C42A34D2BE9BD2D0012A33E /* PeersController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A33C2BE9BD2D0012A33E /* PeersController.swift */; };
+		4C42A34E2BE9BD2D0012A33E /* PeerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A33E2BE9BD2D0012A33E /* PeerInfo.swift */; };
+		4C42A34F2BE9BD2D0012A33E /* PeersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A33F2BE9BD2D0012A33E /* PeersView.swift */; };
+		4C42A3502BE9BD2D0012A33E /* PeersVm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3402BE9BD2D0012A33E /* PeersVm.swift */; };
+		4C42A3512BE9BD2D0012A33E /* PSNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3422BE9BD2D0012A33E /* PSNetworking.swift */; };
+		4C42A3552BE9BDB90012A33E /* DebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3542BE9BDB90012A33E /* DebugView.swift */; };
+		4C42A3572BE9BFFA0012A33E /* HandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3562BE9BFFA0012A33E /* HandModel.swift */; };
+		4C42A3592BE9C0150012A33E /* PostureUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A3582BE9C0150012A33E /* PostureUtils.swift */; };
+		4C42A35B2BE9CDF10012A33E /* ServerTrackingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A35A2BE9CDF10012A33E /* ServerTrackingModel.swift */; };
+		4C42A35F2BEADF170012A33E /* ImageAnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C42A35E2BEADF170012A33E /* ImageAnchorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		4C42A3232BE9BCB00012A33E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C42A3262BE9BCB00012A33E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4C42A3282BE9BCB00012A33E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C42A32E2BE9BCC90012A33E /* SampleEntityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleEntityViewModel.swift; sourceTree = "<group>"; };
+		4C42A3302BE9BD2D0012A33E /* SendableCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendableCircle.swift; sourceTree = "<group>"; };
+		4C42A3312BE9BD2D0012A33E /* SendablePlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendablePlayer.swift; sourceTree = "<group>"; };
+		4C42A3332BE9BD2D0012A33E /* Data+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data+ext.swift"; sourceTree = "<group>"; };
+		4C42A3342BE9BD2D0012A33E /* MCSessionState+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MCSessionState+ext.swift"; sourceTree = "<group>"; };
+		4C42A3362BE9BD2D0012A33E /* PeersC+Advertiser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PeersC+Advertiser.swift"; sourceTree = "<group>"; };
+		4C42A3372BE9BD2D0012A33E /* PeersC+Browser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PeersC+Browser.swift"; sourceTree = "<group>"; };
+		4C42A3382BE9BD2D0012A33E /* PeersC+Session.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PeersC+Session.swift"; sourceTree = "<group>"; };
+		4C42A3392BE9BD2D0012A33E /* PeersC+Stream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PeersC+Stream.swift"; sourceTree = "<group>"; };
+		4C42A33A2BE9BD2D0012A33E /* PeerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerService.swift; sourceTree = "<group>"; };
+		4C42A33C2BE9BD2D0012A33E /* PeersController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeersController.swift; sourceTree = "<group>"; };
+		4C42A33E2BE9BD2D0012A33E /* PeerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeerInfo.swift; sourceTree = "<group>"; };
+		4C42A33F2BE9BD2D0012A33E /* PeersView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeersView.swift; sourceTree = "<group>"; };
+		4C42A3402BE9BD2D0012A33E /* PeersVm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeersVm.swift; sourceTree = "<group>"; };
+		4C42A3422BE9BD2D0012A33E /* PSNetworking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSNetworking.swift; sourceTree = "<group>"; };
+		4C42A3542BE9BDB90012A33E /* DebugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugView.swift; sourceTree = "<group>"; };
+		4C42A3562BE9BFFA0012A33E /* HandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandModel.swift; sourceTree = "<group>"; };
+		4C42A3582BE9C0150012A33E /* PostureUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostureUtils.swift; sourceTree = "<group>"; };
+		4C42A35A2BE9CDF10012A33E /* ServerTrackingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerTrackingModel.swift; sourceTree = "<group>"; };
+		4C42A35E2BEADF170012A33E /* ImageAnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageAnchorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +98,17 @@
 		4C42A3182BE9BCAD0012A33E /* DeliveryTest */ = {
 			isa = PBXGroup;
 			children = (
+				4C42A3432BE9BD2D0012A33E /* Networking */,
+				4C42A3322BE9BD2D0012A33E /* Sendables */,
+				4C42A3232BE9BCB00012A33E /* Assets.xcassets */,
+				4C42A3582BE9C0150012A33E /* PostureUtils.swift */,
+				4C42A3542BE9BDB90012A33E /* DebugView.swift */,
 				4C42A31D2BE9BCAD0012A33E /* DeliveryTestApp.swift */,
 				4C42A31F2BE9BCAE0012A33E /* ContentView.swift */,
 				4C42A3212BE9BCAE0012A33E /* ImmersiveView.swift */,
-				4C42A3232BE9BCB00012A33E /* Assets.xcassets */,
+				4C42A32E2BE9BCC90012A33E /* SampleEntityViewModel.swift */,
+				4C42A3562BE9BFFA0012A33E /* HandModel.swift */,
+				4C42A35E2BEADF170012A33E /* ImageAnchorModel.swift */,
 				4C42A3282BE9BCB00012A33E /* Info.plist */,
 				4C42A3252BE9BCB00012A33E /* Preview Content */,
 			);
@@ -82,6 +129,67 @@
 				4C42A3262BE9BCB00012A33E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C42A3322BE9BD2D0012A33E /* Sendables */ = {
+			isa = PBXGroup;
+			children = (
+				4C42A35A2BE9CDF10012A33E /* ServerTrackingModel.swift */,
+				4C42A3302BE9BD2D0012A33E /* SendableCircle.swift */,
+				4C42A3312BE9BD2D0012A33E /* SendablePlayer.swift */,
+			);
+			path = Sendables;
+			sourceTree = "<group>";
+		};
+		4C42A3352BE9BD2D0012A33E /* MuExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				4C42A3332BE9BD2D0012A33E /* Data+ext.swift */,
+				4C42A3342BE9BD2D0012A33E /* MCSessionState+ext.swift */,
+			);
+			path = MuExtensions;
+			sourceTree = "<group>";
+		};
+		4C42A33B2BE9BD2D0012A33E /* PeersControllerService */ = {
+			isa = PBXGroup;
+			children = (
+				4C42A3352BE9BD2D0012A33E /* MuExtensions */,
+				4C42A3362BE9BD2D0012A33E /* PeersC+Advertiser.swift */,
+				4C42A3372BE9BD2D0012A33E /* PeersC+Browser.swift */,
+				4C42A3382BE9BD2D0012A33E /* PeersC+Session.swift */,
+				4C42A3392BE9BD2D0012A33E /* PeersC+Stream.swift */,
+				4C42A33A2BE9BD2D0012A33E /* PeerService.swift */,
+			);
+			path = PeersControllerService;
+			sourceTree = "<group>";
+		};
+		4C42A33D2BE9BD2D0012A33E /* MuPeer */ = {
+			isa = PBXGroup;
+			children = (
+				4C42A33B2BE9BD2D0012A33E /* PeersControllerService */,
+				4C42A33C2BE9BD2D0012A33E /* PeersController.swift */,
+			);
+			path = MuPeer;
+			sourceTree = "<group>";
+		};
+		4C42A3412BE9BD2D0012A33E /* PeersView */ = {
+			isa = PBXGroup;
+			children = (
+				4C42A33E2BE9BD2D0012A33E /* PeerInfo.swift */,
+				4C42A33F2BE9BD2D0012A33E /* PeersView.swift */,
+				4C42A3402BE9BD2D0012A33E /* PeersVm.swift */,
+			);
+			path = PeersView;
+			sourceTree = "<group>";
+		};
+		4C42A3432BE9BD2D0012A33E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				4C42A33D2BE9BD2D0012A33E /* MuPeer */,
+				4C42A3412BE9BD2D0012A33E /* PeersView */,
+				4C42A3422BE9BD2D0012A33E /* PSNetworking.swift */,
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +265,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C42A3462BE9BD2D0012A33E /* Data+ext.swift in Sources */,
+				4C42A34E2BE9BD2D0012A33E /* PeerInfo.swift in Sources */,
+				4C42A34D2BE9BD2D0012A33E /* PeersController.swift in Sources */,
+				4C42A3452BE9BD2D0012A33E /* SendablePlayer.swift in Sources */,
+				4C42A34F2BE9BD2D0012A33E /* PeersView.swift in Sources */,
+				4C42A3492BE9BD2D0012A33E /* PeersC+Browser.swift in Sources */,
+				4C42A3572BE9BFFA0012A33E /* HandModel.swift in Sources */,
+				4C42A3512BE9BD2D0012A33E /* PSNetworking.swift in Sources */,
+				4C42A34A2BE9BD2D0012A33E /* PeersC+Session.swift in Sources */,
+				4C42A3482BE9BD2D0012A33E /* PeersC+Advertiser.swift in Sources */,
+				4C42A3502BE9BD2D0012A33E /* PeersVm.swift in Sources */,
+				4C42A3442BE9BD2D0012A33E /* SendableCircle.swift in Sources */,
 				4C42A3202BE9BCAE0012A33E /* ContentView.swift in Sources */,
+				4C42A3472BE9BD2D0012A33E /* MCSessionState+ext.swift in Sources */,
+				4C42A32F2BE9BCC90012A33E /* SampleEntityViewModel.swift in Sources */,
+				4C42A35B2BE9CDF10012A33E /* ServerTrackingModel.swift in Sources */,
 				4C42A31E2BE9BCAD0012A33E /* DeliveryTestApp.swift in Sources */,
 				4C42A3222BE9BCAE0012A33E /* ImmersiveView.swift in Sources */,
+				4C42A35F2BEADF170012A33E /* ImageAnchorModel.swift in Sources */,
+				4C42A3552BE9BDB90012A33E /* DebugView.swift in Sources */,
+				4C42A34B2BE9BD2D0012A33E /* PeersC+Stream.swift in Sources */,
+				4C42A34C2BE9BD2D0012A33E /* PeerService.swift in Sources */,
+				4C42A3592BE9C0150012A33E /* PostureUtils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

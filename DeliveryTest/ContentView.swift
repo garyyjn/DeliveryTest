@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  DeliveryTest
+//  ReceiverTest
 //
 //  Created by Gary Yao on 5/6/24.
 //
@@ -16,14 +16,16 @@ struct ContentView: View {
 
     @Environment(\.openImmersiveSpace) var openImmersiveSpace
     @Environment(\.dismissImmersiveSpace) var dismissImmersiveSpace
+    
+    @Binding var sevm:SampleEntityViewModel
 
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
-                .padding(.bottom, 50)
-
-            Text("Hello, world!")
-
+            DebugView()
+            Text("\(sevm.sampleSaveBall.transform.translation)")
+            
+            //Text("\(sevm.debug_test)")
+            
             Toggle("Show ImmersiveSpace", isOn: $showImmersiveSpace)
                 .font(.title)
                 .frame(width: 360)
@@ -50,8 +52,4 @@ struct ContentView: View {
             }
         }
     }
-}
-
-#Preview(windowStyle: .automatic) {
-    ContentView()
 }

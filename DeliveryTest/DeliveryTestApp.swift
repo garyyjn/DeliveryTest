@@ -9,13 +9,14 @@ import SwiftUI
 
 @main
 struct DeliveryTestApp: App {
+    @State var sevm = SampleEntityViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(sevm: $sevm)
         }
 
         ImmersiveSpace(id: "ImmersiveSpace") {
-            ImmersiveView()
+            ImmersiveView(sevm: $sevm)
         }
     }
 }
