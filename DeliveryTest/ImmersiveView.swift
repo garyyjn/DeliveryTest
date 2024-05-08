@@ -10,7 +10,7 @@ import RealityKitContent
 
 struct ImmersiveView: View {
     
-    @State var timer = Timer.publish(every: 0.01, on: .main, in: .common).autoconnect()
+    @State var timer = Timer.publish(every: 0.03, on: .main, in: .common).autoconnect()
     @StateObject private var networkedCircle = PSNetworking<SendableBall>(defaultSendable: SendableBall(state: "dafault", playerTransform: Transform().matrix))
     
     @Binding var sevm:SampleEntityViewModel
