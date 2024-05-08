@@ -117,8 +117,7 @@ class ThrowingHandModel{
         var ball_hand_dist = pow((ball.position.x - middleloc.x),2) + pow((ball.position.y - middleloc.y),2) + pow((ball.position.z - middleloc.z),2)
         ball_hand_dist = pow(ball_hand_dist, 0.5)
         print(ball_hand_dist)
-        if ball_hand_dist < 0.25 && time_tick - last_thrown > 6{
-            
+        if ball_hand_dist < 0.25 && time_tick - last_thrown > 6 && stm.my_last_strong_control >= stm.your_last_strong_control{
             if ballState != .in_hand{
                 stm.strong_request = 1
                 stm.my_last_strong_control = Date().timeIntervalSince1970
@@ -127,10 +126,8 @@ class ThrowingHandModel{
         }
         
         if ballState == .in_hand{
-            if stm.my_last_strong_control >= stm.your_last_strong_control{
                 summontohand(ball: ball, rh: rh)
                 removephysics(ball: ball)
-            }
         }
         
         // print(ballState)
