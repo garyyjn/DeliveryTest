@@ -117,14 +117,12 @@ class ThrowingHandModel{
         var ball_hand_dist = pow((ball.position.x - middleloc.x),2) + pow((ball.position.y - middleloc.y),2) + pow((ball.position.z - middleloc.z),2)
         ball_hand_dist = pow(ball_hand_dist, 0.5)
         print(ball_hand_dist)
-        if ball_hand_dist < 0.25 && time_tick - last_thrown > 6 && stm.my_last_strong_control > stm.your_last_strong_control{
-            print("newly grabbed ")
-            if ballState != .in_hand{
-                stm.strong_request = 1
-                stm.my_last_strong_control = Date().timeIntervalSince1970
-                ballState = .in_hand
-                last_thrown = time_tick
-            }
+        if ball_hand_dist < 0.25 && time_tick - last_thrown > 6 && ballState != .in_hand{
+            print("newly grabbed")               
+            stm.strong_request = 1
+            stm.my_last_strong_control = Date().timeIntervalSince1970
+            ballState = .in_hand
+            last_thrown = time_tick
             
         }
         
